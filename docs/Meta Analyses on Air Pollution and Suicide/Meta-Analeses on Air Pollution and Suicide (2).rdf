@@ -1,0 +1,516 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://www.mdpi.com/1660-4601/18/14/7699">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1660-4601"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Heo</foaf:surname>
+                        <foaf:givenName>Seulkee</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Whanhee</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bell</foaf:surname>
+                        <foaf:givenName>Michelle L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_73"/>
+        <link:link rdf:resource="#item_72"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>air pollution</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>case-crossover</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>climate change</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>mortality</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>suicide</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>temperature</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>time-series</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Suicide and Associations with Air Pollution and Ambient Temperature: A Systematic Review and Meta-Analysis</dc:title>
+        <dcterms:abstract>Given health threats of climate change, a comprehensive review of the impacts of ambient temperature and ar pollution on suicide is needed. We performed systematic literature review and meta-analysis of suicide risks associated with short-term exposure to ambient temperature and air pollution. Pubmed, Scopus, and Web of Science were searched for English-language publications using relevant keywords. Observational studies assessing risks of daily suicide and suicide attempts associated with temperature, particulate matter with aerodynamic diameter ≤10 μm (PM10) and ≤2.5 mm (PM2.5), ozone (O3), sulfur dioxide (SO2), nitrogen dioxide (NO2), and carbon monoxide (CO) were included. Data extraction was independently performed in duplicate. Random-effect meta-analysis was applied to pool risk ratios (RRs) for increases in daily suicide per interquartile range (IQR) increase in exposure. Meta-regression analysis was applied to examine effect modification by income level based on gross national income (GNI) per capita, national suicide rates, and average level of exposure factors. In total 2274 articles were screened, with 18 studies meeting inclusion criteria for air pollution and 32 studies for temperature. RRs of suicide per 7.1 °C temperature was 1.09 (95% CI: 1.06, 1.13). RRs of suicide per IQR increase in PM2.5, PM10, and NO2 were 1.02 (95% CI: 1.00, 1.05), 1.01 (95% CI: 1.00, 1.03), and 1.03 (95% CI: 1.00, 1.07). O3, SO2, and CO were not associated with suicide. RR of suicide was significantly higher in higher-income than lower-income countries (1.09, 95% CI: 1.07, 1.11 and 1.20, 95% CI: 1.14, 1.26 per 7.1 °C increased temperature, respectively). Suicide risks associated with air pollution did not significantly differ by income level, national suicide rates, or average exposure levels. Research gaps were found for interactions between air pollution and temperature on suicide risks.</dcterms:abstract>
+        <dc:date>2021/1</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Suicide and Associations with Air Pollution and Ambient Temperature</z:shortTitle>
+        <z:libraryCatalog>www.mdpi.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1660-4601/18/14/7699</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:08:39</dcterms:dateSubmitted>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <dc:description>Number: 14
+Publisher: Multidisciplinary Digital Publishing Institute</dc:description>
+        <bib:pages>7699</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1660-4601">
+        <prism:volume>18</prism:volume>
+        <dc:title>International Journal of Environmental Research and Public Health</dc:title>
+        <dc:identifier>DOI 10.3390/ijerph18147699</dc:identifier>
+        <prism:number>14</prism:number>
+        <dc:identifier>ISSN 1660-4601</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_73">
+        <rdf:value>&lt;div data-schema-version=&quot;8&quot;&gt;&lt;p&gt;&lt;strong&gt;Methods and Results &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Looked at PM 10, PM 2.5, Ozone, SO2, NO2, CO&lt;/p&gt;
+&lt;p&gt;Controlled for GNI, national suicide rate, and average level of exposure factors, but effect did not differ greatly across these factors&lt;/p&gt;
+&lt;p&gt;Screened 2274 articles and 18 of them met air pollution inclusion criteria&lt;/p&gt;
+&lt;p&gt;“RRs of suicide per IQR increase in PM2.5, PM10, and NO2 were 1.02 (95% CI: 1.00, 1.05), 1.01 (95% CI: 1.00, 1.03), and 1.03 (95% CI: 1.00, 1.07). O3, SO2, and CO were not associated with suicide.”&lt;/p&gt;
+&lt;p&gt;“Research gaps were found for interactions between air pollution and temperature on suicide risks”&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_72">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/72/Heo et al. - 2021 - Suicide and Associations with Air Pollution and Am.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/1660-4601/18/14/7699/pdf?version=1626832131</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:09:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ehp.niehs.nih.gov/doi/full/10.1289/EHP4595">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>127</prism:volume>
+                <dc:title>Environmental Health Perspectives</dc:title>
+                <dc:identifier>DOI 10.1289/EHP4595</dc:identifier>
+                <prism:number>12</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Braithwaite</foaf:surname>
+                        <foaf:givenName>Isobel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Shuo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kirkbride</foaf:surname>
+                        <foaf:givenName>James B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osborn</foaf:surname>
+                        <foaf:givenName>David P. J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hayes</foaf:surname>
+                        <foaf:givenName>Joseph F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_87"/>
+        <link:link rdf:resource="#item_75"/>
+        <dc:title>Air Pollution (Particulate Matter) Exposure and Associations with Depression, Anxiety, Bipolar, Psychosis and Suicide Risk: A Systematic Review and Meta-Analysis</dc:title>
+        <dcterms:abstract>Background:
+
+Particulate air pollution’s physical health effects are well known, but associations between particulate matter (PM) exposure and mental illness have not yet been established. However, there is increasing interest in emerging evidence supporting a possible etiological link.
+
+Objectives:
+
+This systematic review aims to provide a comprehensive overview and synthesis of the epidemiological literature to date by investigating quantitative associations between PM and multiple adverse mental health outcomes (depression, anxiety, bipolar disorder, psychosis, or suicide).
+
+Methods:
+
+We undertook a systematic review and meta-analysis. We searched Medline, PsycINFO, and EMBASE from January 1974 to September 2017 for English-language human observational studies reporting quantitative associations between exposure to PM 
+less than 1.0 micrometers
+&lt;1.0μm
+&lt;
+1.0
+μ
+m
+ in aerodynamic diameter (ultrafine particles) and PM 
+less than 2.5
+&lt;2.5
+&lt;
+2.5
+ and 
+less than 10 micrometers
+&lt;10μm
+&lt;
+10
+μ
+m
+ in aerodynamic diameter (
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ and 
+PM subscript 10
+PM
+10
+PM
+10
+, respectively) and the above psychiatric outcomes. We extracted data, appraised study quality using a published quality assessment tool, summarized methodological approaches, and conducted meta-analyses where appropriate.
+
+Results:
+
+Of 1,826 citations identified, 22 met our overall inclusion criteria, and we included 9 in our primary meta-analyses. In our meta-analysis of associations between long-term (
+greater than 6 months
+&gt;6 months
+&gt;
+6
+ 
+months
+) 
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ exposure and depression (
+N equals 5
+n=5
+𝑛
+=
+5
+ studies), the pooled odds ratio was 1.102 per 
+10 micrograms per cubic meter
+10
+-μg/m
+3
+10
+-
+μ
+g
+/
+m
+3
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ increase (95% CI: 1.023, 1.189; 
+I squared equals 0.00 percent
+I
+2
+=0.00%
+𝐼
+2
+=
+0.00
+%
+). Two of the included studies investigating associations between long-term 
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ exposure and anxiety also reported statistically significant positive associations, and we found a statistically significant association between short-term 
+PM subscript 10
+PM
+10
+PM
+10
+ exposure and suicide in meta-analysis at a 0-2 d cumulative exposure lag.
+
+Discussion:
+
+Our findings support the hypothesis of an association between long-term 
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ exposure and depression, as well as supporting hypotheses of possible associations between long-term 
+PM subscript 2.5
+PM
+2.5
+PM
+2.5
+ exposure and anxiety and between short-term 
+PM subscript 10
+PM
+10
+PM
+10
+ exposure and suicide. The limited literature and methodological challenges in this field, including heterogeneous outcome definitions, exposure assessment, and residual confounding, suggest further high-quality studies are warranted to investigate potentially causal associations between air pollution and poor mental health. https://doi.org/10.1289/EHP4595</dcterms:abstract>
+        <z:shortTitle>Air Pollution (Particulate Matter) Exposure and Associations with Depression, Anxiety, Bipolar, Psychosis and Suicide Risk</z:shortTitle>
+        <z:libraryCatalog>ehp.niehs.nih.gov (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ehp.niehs.nih.gov/doi/full/10.1289/EHP4595</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:24:47</dcterms:dateSubmitted>
+        <dc:description>Publisher: Environmental Health Perspectives</dc:description>
+        <bib:pages>126002</bib:pages>
+    </bib:Article>
+    <bib:Memo rdf:about="#item_87">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F6JLWYURS%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F6JLWYURS%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22Background%3A%5Cn%5CnParticulate%20air%20pollution%E2%80%99s%20physical%20health%20effects%20are%20well%20known%2C%20but%20associations%20between%20particulate%20matter%20(PM)%20exposure%20and%20mental%20illness%20have%20not%20yet%20been%20established.%20However%2C%20there%20is%20increasing%20interest%20in%20emerging%20evidence%20supporting%20a%20possible%20etiological%20link.%5Cn%5CnObjectives%3A%5Cn%5CnThis%20systematic%20review%20aims%20to%20provide%20a%20comprehensive%20overview%20and%20synthesis%20of%20the%20epidemiological%20literature%20to%20date%20by%20investigating%20quantitative%20associations%20between%20PM%20and%20multiple%20adverse%20mental%20health%20outcomes%20(depression%2C%20anxiety%2C%20bipolar%20disorder%2C%20psychosis%2C%20or%20suicide).%5Cn%5CnMethods%3A%5Cn%5CnWe%20undertook%20a%20systematic%20review%20and%20meta-analysis.%20We%20searched%20Medline%2C%20PsycINFO%2C%20and%20EMBASE%20from%20January%201974%20to%20September%202017%20for%20English-language%20human%20observational%20studies%20reporting%20quantitative%20associations%20between%20exposure%20to%20PM%20%5Cnless%20than%201.0%20micrometers%5Cn%3C1.0%CE%BCm%5Cn%3C%5Cn1.0%5Cn%CE%BC%5Cnm%5Cn%20in%20aerodynamic%20diameter%20(ultrafine%20particles)%20and%20PM%20%5Cnless%20than%202.5%5Cn%3C2.5%5Cn%3C%5Cn2.5%5Cn%20and%20%5Cnless%20than%2010%20micrometers%5Cn%3C10%CE%BCm%5Cn%3C%5Cn10%5Cn%CE%BC%5Cnm%5Cn%20in%20aerodynamic%20diameter%20(%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20and%20%5CnPM%20subscript%2010%5CnPM%5Cn10%5CnPM%5Cn10%5Cn%2C%20respectively)%20and%20the%20above%20psychiatric%20outcomes.%20We%20extracted%20data%2C%20appraised%20study%20quality%20using%20a%20published%20quality%20assessment%20tool%2C%20summarized%20methodological%20approaches%2C%20and%20conducted%20meta-analyses%20where%20appropriate.%5Cn%5CnResults%3A%5Cn%5CnOf%201%2C826%20citations%20identified%2C%2022%20met%20our%20overall%20inclusion%20criteria%2C%20and%20we%20included%209%20in%20our%20primary%20meta-analyses.%20In%20our%20meta-analysis%20of%20associations%20between%20long-term%20(%5Cngreater%20than%206%20months%5Cn%3E6%E2%80%89months%5Cn%3E%5Cn6%5Cn%E2%80%89%5Cnmonths%5Cn)%20%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20exposure%20and%20depression%20(%5CnN%20equals%205%5Cnn%3D5%5Cn%F0%9D%91%9B%5Cn%3D%5Cn5%5Cn%20studies)%2C%20the%20pooled%20odds%20ratio%20was%201.102%20per%20%5Cn10%20micrograms%20per%20cubic%20meter%5Cn10%5Cn-%CE%BCg%2Fm%5Cn3%5Cn10%5Cn-%5Cn%CE%BC%5Cng%5Cn%2F%5Cnm%5Cn3%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20increase%20(95%25%20CI%3A%201.023%2C%201.189%3B%20%5CnI%20squared%20equals%200.00%20percent%5CnI%5Cn2%5Cn%3D0.00%25%5Cn%F0%9D%90%BC%5Cn2%5Cn%3D%5Cn0.00%5Cn%25%5Cn).%20Two%20of%20the%20included%20studies%20investigating%20associations%20between%20long-term%20%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20exposure%20and%20anxiety%20also%20reported%20statistically%20significant%20positive%20associations%2C%20and%20we%20found%20a%20statistically%20significant%20association%20between%20short-term%20%5CnPM%20subscript%2010%5CnPM%5Cn10%5CnPM%5Cn10%5Cn%20exposure%20and%20suicide%20in%20meta-analysis%20at%20a%200-2%20d%20cumulative%20exposure%20lag.%5Cn%5CnDiscussion%3A%5Cn%5CnOur%20findings%20support%20the%20hypothesis%20of%20an%20association%20between%20long-term%20%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20exposure%20and%20depression%2C%20as%20well%20as%20supporting%20hypotheses%20of%20possible%20associations%20between%20long-term%20%5CnPM%20subscript%202.5%5CnPM%5Cn2.5%5CnPM%5Cn2.5%5Cn%20exposure%20and%20anxiety%20and%20between%20short-term%20%5CnPM%20subscript%2010%5CnPM%5Cn10%5CnPM%5Cn10%5Cn%20exposure%20and%20suicide.%20The%20limited%20literature%20and%20methodological%20challenges%20in%20this%20field%2C%20including%20heterogeneous%20outcome%20definitions%2C%20exposure%20assessment%2C%20and%20residual%20confounding%2C%20suggest%20further%20high-quality%20studies%20are%20warranted%20to%20investigate%20potentially%20causal%20associations%20between%20air%20pollution%20and%20poor%20mental%20health.%20https%3A%2F%2Fdoi.org%2F10.1289%2FEHP4595%22%2C%22container-title%22%3A%22Environmental%20Health%20Perspectives%22%2C%22DOI%22%3A%2210.1289%2FEHP4595%22%2C%22issue%22%3A%2212%22%2C%22note%22%3A%22publisher%3A%20Environmental%20Health%20Perspectives%22%2C%22page%22%3A%22126002%22%2C%22source%22%3A%22ehp.niehs.nih.gov%20(Atypon)%22%2C%22title%22%3A%22Air%20Pollution%20(Particulate%20Matter)%20Exposure%20and%20Associations%20with%20Depression%2C%20Anxiety%2C%20Bipolar%2C%20Psychosis%20and%20Suicide%20Risk%3A%20A%20Systematic%20Review%20and%20Meta-Analysis%22%2C%22title-short%22%3A%22Air%20Pollution%20(Particulate%20Matter)%20Exposure%20and%20Associations%20with%20Depression%2C%20Anxiety%2C%20Bipolar%2C%20Psychosis%20and%20Suicide%20Risk%22%2C%22URL%22%3A%22https%3A%2F%2Fehp.niehs.nih.gov%2Fdoi%2Ffull%2F10.1289%2FEHP4595%22%2C%22volume%22%3A%22127%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Braithwaite%22%2C%22given%22%3A%22Isobel%22%7D%2C%7B%22family%22%3A%22Zhang%22%2C%22given%22%3A%22Shuo%22%7D%2C%7B%22family%22%3A%22Kirkbride%22%2C%22given%22%3A%22James%20B.%22%7D%2C%7B%22family%22%3A%22Osborn%22%2C%22given%22%3A%22David%20P.%20J.%22%7D%2C%7B%22family%22%3A%22Hayes%22%2C%22given%22%3A%22Joseph%20F.%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C5%2C15%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;8&quot;&gt;&lt;h1&gt;Methods and Results&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F5YDJPEH7%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B83.396%2C521.434%2C479.606%2C529.934%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F6JLWYURS%22%5D%2C%22locator%22%3A%221%22%7D%7D&quot;&gt;“Of 1,826 citations identified, 22 met our overall inclusion criteria, and we included 9 in our primary meta-analyses”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F5YDJPEH7%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B265.721%2C492.498%2C563.957%2C501.473%5D%2C%5B48.015%2C483.726%2C251.199%2C491.385%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F6JLWYURS%22%5D%2C%22locator%22%3A%221%22%7D%7D&quot;&gt;“we found a statistically significant association between short-term PM10 exposure and suicide in meta-analysis at a 0-2 d cumulative exposure lag”&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_75">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/75/Braithwaite et al. - Air Pollution (Particulate Matter) Exposure and As.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ehp.niehs.nih.gov/doi/pdf/10.1289/EHP4595</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:24:48</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0048969720384151">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0048-9697"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davoudi</foaf:surname>
+                        <foaf:givenName>Mojtaba</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barjasteh-Askari</foaf:surname>
+                        <foaf:givenName>Fateme</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amini</foaf:surname>
+                        <foaf:givenName>Homayoun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lester</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mahvi</foaf:surname>
+                        <foaf:givenName>Amir Hossein</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghavami</foaf:surname>
+                        <foaf:givenName>Vahid</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rezvani Ghalhari</foaf:surname>
+                        <foaf:givenName>Mohammad</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_86"/>
+        <link:link rdf:resource="#item_77"/>
+        <link:link rdf:resource="#item_78"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Air pollutant</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Air pollution</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cumulative exposure</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Lag time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Suicide</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Association of suicide with short-term exposure to air pollution at different lag times: A systematic review and meta-analysis</dc:title>
+        <dcterms:abstract>Background
+Suicide is a major public health problem, with some environmental risk factors.
+Objectives
+This meta-analysis study explored the association between short-term exposure to air pollution and suicide mortality, with an emphasis on different lag times.
+Methods
+A systematic search was used to find relevant studies in databases including Scopus, Web of Knowledge, Pubmed, and Embase published up to 19 May 2020. The inclusion criteria included case-crossover or time-series studies assessing the association of criteria air pollutants with suicide mortality at different Lag Days of 0–7 (LD0 to LD7) and Cumulative Lags of 1–7 days (CL1 to CL7). Odds ratios (OR) were calculated with 95% confidence intervals (CI).
+Results
+Of 1436 retrieved articles, 11 were eligible for data extraction, representing data on 283,550 suicides published between 2010 and 2019. The odds of suicide death increase with each 10 μg/m3 increase in the mean concentrations of NO2 at CL1 (1.013: 1.006–1.021), CL2 (1.028: 1.003–1.053), CL3 (1.035: 1.001–1.070), and LD2 (1.011: 1.001–1.022), SO2 at CL1 (1.024: 1.014–1.034), CL2 (1.030: 1.012–1.048), CL3 (1.029: 1.009–1.049), and CL4 (1.027: 1.005–1.049), O3 at CL6 (1.008: 1.000–1.016), PM10 at CL1 (1.004: 1.000–1.008), and PM2.5 at CL1 (1.017: 1.003–1.031). Besides, the odds of suicide death increases with each 0.5 mg/m3 increase in the mean concentration of CO at LD6 (1.005: 1.000–1.011). However, it decreased with increased O3 exposure at LD3 (0.997: 0.994–1.000).
+Conclusion
+The study supports a positive association between air pollution and suicide mortality. No immediate risk was elucidated but the possible effects seem to be exerted cumulatively.</dcterms:abstract>
+        <dc:date>2021-06-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Association of suicide with short-term exposure to air pollution at different lag times</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0048969720384151</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:24:50</dcterms:dateSubmitted>
+        <bib:pages>144882</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0048-9697">
+        <prism:volume>771</prism:volume>
+        <dc:title>Science of The Total Environment</dc:title>
+        <dc:identifier>DOI 10.1016/j.scitotenv.2020.144882</dc:identifier>
+        <dcterms:alternative>Science of The Total Environment</dcterms:alternative>
+        <dc:identifier>ISSN 0048-9697</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_86">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FUGFRWUX2%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FUGFRWUX2%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22Background%5CnSuicide%20is%20a%20major%20public%20health%20problem%2C%20with%20some%20environmental%20risk%20factors.%5CnObjectives%5CnThis%20meta-analysis%20study%20explored%20the%20association%20between%20short-term%20exposure%20to%20air%20pollution%20and%20suicide%20mortality%2C%20with%20an%20emphasis%20on%20different%20lag%20times.%5CnMethods%5CnA%20systematic%20search%20was%20used%20to%20find%20relevant%20studies%20in%20databases%20including%20Scopus%2C%20Web%20of%20Knowledge%2C%20Pubmed%2C%20and%20Embase%20published%20up%20to%2019%20May%202020.%20The%20inclusion%20criteria%20included%20case-crossover%20or%20time-series%20studies%20assessing%20the%20association%20of%20criteria%20air%20pollutants%20with%20suicide%20mortality%20at%20different%20Lag%20Days%20of%200%E2%80%937%20(LD0%20to%20LD7)%20and%20Cumulative%20Lags%20of%201%E2%80%937%C2%A0days%20(CL1%20to%20CL7).%20Odds%20ratios%20(OR)%20were%20calculated%20with%2095%25%20confidence%20intervals%20(CI).%5CnResults%5CnOf%201436%20retrieved%20articles%2C%2011%20were%20eligible%20for%20data%20extraction%2C%20representing%20data%20on%20283%2C550%20suicides%20published%20between%202010%20and%202019.%20The%20odds%20of%20suicide%20death%20increase%20with%20each%2010%C2%A0%CE%BCg%2Fm3%20increase%20in%20the%20mean%20concentrations%20of%20NO2%20at%20CL1%20(1.013%3A%201.006%E2%80%931.021)%2C%20CL2%20(1.028%3A%201.003%E2%80%931.053)%2C%20CL3%20(1.035%3A%201.001%E2%80%931.070)%2C%20and%20LD2%20(1.011%3A%201.001%E2%80%931.022)%2C%20SO2%20at%20CL1%20(1.024%3A%201.014%E2%80%931.034)%2C%20CL2%20(1.030%3A%201.012%E2%80%931.048)%2C%20CL3%20(1.029%3A%201.009%E2%80%931.049)%2C%20and%20CL4%20(1.027%3A%201.005%E2%80%931.049)%2C%20O3%20at%20CL6%20(1.008%3A%201.000%E2%80%931.016)%2C%20PM10%20at%20CL1%20(1.004%3A%201.000%E2%80%931.008)%2C%20and%20PM2.5%20at%20CL1%20(1.017%3A%201.003%E2%80%931.031).%20Besides%2C%20the%20odds%20of%20suicide%20death%20increases%20with%20each%200.5%C2%A0mg%2Fm3%20increase%20in%20the%20mean%20concentration%20of%20CO%20at%20LD6%20(1.005%3A%201.000%E2%80%931.011).%20However%2C%20it%20decreased%20with%20increased%20O3%20exposure%20at%20LD3%20(0.997%3A%200.994%E2%80%931.000).%5CnConclusion%5CnThe%20study%20supports%20a%20positive%20association%20between%20air%20pollution%20and%20suicide%20mortality.%20No%20immediate%20risk%20was%20elucidated%20but%20the%20possible%20effects%20seem%20to%20be%20exerted%20cumulatively.%22%2C%22container-title%22%3A%22Science%20of%20The%20Total%20Environment%22%2C%22DOI%22%3A%2210.1016%2Fj.scitotenv.2020.144882%22%2C%22ISSN%22%3A%220048-9697%22%2C%22journalAbbreviation%22%3A%22Science%20of%20The%20Total%20Environment%22%2C%22language%22%3A%22en%22%2C%22page%22%3A%22144882%22%2C%22source%22%3A%22ScienceDirect%22%2C%22title%22%3A%22Association%20of%20suicide%20with%20short-term%20exposure%20to%20air%20pollution%20at%20different%20lag%20times%3A%20A%20systematic%20review%20and%20meta-analysis%22%2C%22title-short%22%3A%22Association%20of%20suicide%20with%20short-term%20exposure%20to%20air%20pollution%20at%20different%20lag%20times%22%2C%22URL%22%3A%22https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0048969720384151%22%2C%22volume%22%3A%22771%22%2C%22author%22%3A%5B%7B%22family%22%3A%22Davoudi%22%2C%22given%22%3A%22Mojtaba%22%7D%2C%7B%22family%22%3A%22Barjasteh-Askari%22%2C%22given%22%3A%22Fateme%22%7D%2C%7B%22family%22%3A%22Amini%22%2C%22given%22%3A%22Homayoun%22%7D%2C%7B%22family%22%3A%22Lester%22%2C%22given%22%3A%22David%22%7D%2C%7B%22family%22%3A%22Mahvi%22%2C%22given%22%3A%22Amir%20Hossein%22%7D%2C%7B%22family%22%3A%22Ghavami%22%2C%22given%22%3A%22Vahid%22%7D%2C%7B%22family%22%3A%22Rezvani%20Ghalhari%22%2C%22given%22%3A%22Mohammad%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C5%2C15%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222021%22%2C6%2C1%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;8&quot;&gt;&lt;h1&gt;Methods and Results&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FEE3NNKZP%22%2C%22pageLabel%22%3A%228%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B80.277%2C487.441%2C289.255%2C497.193%5D%2C%5B38.153%2C476.517%2C289.24%2C485.287%5D%2C%5B38.154%2C466.829%2C289.214%2C474.799%5D%2C%5B38.154%2C456.397%2C130.341%2C464.367%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FUGFRWUX2%22%5D%2C%22locator%22%3A%228%22%7D%7D&quot;&gt;“As an important finding, a 10 μg/m3 increase in the average concentration of air pollutants NO2,SO2,PM10,andPM2.5 on the same day of suicide and one day preceding the suicide (CL1) well explained the rates of suicide death.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FEE3NNKZP%22%2C%22pageLabel%22%3A%221%22%2C%22position%22%3A%7B%22pageIndex%22%3A0%2C%22rects%22%3A%5B%5B227.341%2C182.455%2C418.763%2C189.628%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FUGFRWUX2%22%5D%2C%22locator%22%3A%221%22%7D%7D&quot;&gt;“Of 1436 retrieved articles, 11 were eligible for data extraction”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Significance with 1 day lag for NO2, SO2, PM2.5, PM10. 6 day lag significance for O3&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FEE3NNKZP%22%2C%22pageLabel%22%3A%222%22%2C%22position%22%3A%7B%22pageIndex%22%3A1%2C%22rects%22%3A%5B%5B511.765%2C700.741%2C557.223%2C707.915%5D%2C%5B202.563%2C691.16%2C445.454%2C698.333%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FUGFRWUX2%22%5D%2C%22locator%22%3A%222%22%7D%7D&quot;&gt;“No immediate risk was elucidated but the possible effects seem to be exerted cumulatively”&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/77/Davoudi et al. - 2021 - Association of suicide with short-term exposure to.pdf"/>
+        <dc:title>ScienceDirect Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0048969720384151/pdfft?md5=355cc9f35a98d80765958e82b3e3f086&amp;pid=1-s2.0-S0048969720384151-main.pdf&amp;isDTMRedir=Y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:24:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_78">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/78/S0048969720384151.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0048969720384151</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:24:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://ijomeh.eu/Impact-of-air-pollution-on-depression-and-suicide,84931,0,2.html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1232-1087,%201896-494X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gładka</foaf:surname>
+                        <foaf:givenName>Anna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rymaszewska</foaf:surname>
+                        <foaf:givenName>Joanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zatoński</foaf:surname>
+                        <foaf:givenName>Tomasz</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_85"/>
+        <link:link rdf:resource="#item_82"/>
+        <dc:title>Impact of air pollution on depression and suicide</dc:title>
+        <dcterms:abstract>Air pollution is one of the greatest public health threats worldwide. All substances appearing in excessive quantities in the
+atmosphere, such as particulate matter, nitrogen oxides or sulphur oxides may be its ingredients. Depending on their size and
+nature, these compounds may cause greater...</dcterms:abstract>
+        <dc:date>2018/12/20</dc:date>
+        <z:language>english</z:language>
+        <z:libraryCatalog>ijomeh.eu</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ijomeh.eu/Impact-of-air-pollution-on-depression-and-suicide,84931,0,2.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:25:38</dcterms:dateSubmitted>
+        <dc:description>Publisher: Nofer Institute of Occupational Medicine</dc:description>
+        <bib:pages>711-721</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1232-1087,%201896-494X">
+        <prism:volume>31</prism:volume>
+        <dc:title>International Journal of Occupational Medicine and Environmental Health</dc:title>
+        <dc:identifier>DOI 10.13075/ijomeh.1896.01277</dc:identifier>
+        <prism:number>6</prism:number>
+        <dcterms:alternative>Int J Occup Med Environ Health</dcterms:alternative>
+        <dc:identifier>ISSN 1232-1087, 1896-494X</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_85">
+        <rdf:value>&lt;div data-citation-items=&quot;%5B%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%5D%2C%22itemData%22%3A%7B%22id%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%2C%22type%22%3A%22article-journal%22%2C%22abstract%22%3A%22Air%20pollution%20is%20one%20of%20the%20greatest%20public%20health%20threats%20worldwide.%20All%20substances%20appearing%20in%20excessive%20quantities%20in%20the%5Cnatmosphere%2C%20such%20as%20particulate%20matter%2C%20nitrogen%20oxides%20or%20sulphur%20oxides%20may%20be%20its%20ingredients.%20Depending%20on%20their%20size%20and%5Cnnature%2C%20these%20compounds%20may%20cause%20greater...%22%2C%22container-title%22%3A%22International%20Journal%20of%20Occupational%20Medicine%20and%20Environmental%20Health%22%2C%22DOI%22%3A%2210.13075%2Fijomeh.1896.01277%22%2C%22ISSN%22%3A%221232-1087%2C%201896-494X%22%2C%22issue%22%3A%226%22%2C%22journalAbbreviation%22%3A%22Int%20J%20Occup%20Med%20Environ%20Health%22%2C%22language%22%3A%22english%22%2C%22note%22%3A%22publisher%3A%20Nofer%20Institute%20of%20Occupational%20Medicine%22%2C%22page%22%3A%22711-721%22%2C%22source%22%3A%22ijomeh.eu%22%2C%22title%22%3A%22Impact%20of%20air%20pollution%20on%20depression%20and%20suicide%22%2C%22URL%22%3A%22http%3A%2F%2Fijomeh.eu%2FImpact-of-air-pollution-on-depression-and-suicide%2C84931%2C0%2C2.html%22%2C%22volume%22%3A%2231%22%2C%22author%22%3A%5B%7B%22family%22%3A%22G%C5%82adka%22%2C%22given%22%3A%22Anna%22%7D%2C%7B%22family%22%3A%22Rymaszewska%22%2C%22given%22%3A%22Joanna%22%7D%2C%7B%22family%22%3A%22Zato%C5%84ski%22%2C%22given%22%3A%22Tomasz%22%7D%5D%2C%22accessed%22%3A%7B%22date-parts%22%3A%5B%5B%222023%22%2C5%2C15%5D%5D%7D%2C%22issued%22%3A%7B%22date-parts%22%3A%5B%5B%222018%22%2C12%2C20%5D%5D%7D%7D%7D%5D&quot; data-schema-version=&quot;8&quot;&gt;&lt;h1&gt;&lt;strong&gt;Methods and Results&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;558 articles collected, 12 met criteria for depression and 9 for suicide&lt;/p&gt;
+&lt;p&gt;Strongest conclusion was on ozone&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F4E8UI6GG%22%2C%22pageLabel%22%3A%22717%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B308.976%2C130.613%2C538.599%2C141.844%5D%2C%5B308.976%2C114.523%2C538.604%2C125.754%5D%2C%5B308.976%2C98.433%2C359.479%2C109.664%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%5D%2C%22locator%22%3A%22717%22%7D%7D&quot;&gt;“Numerous articles suggest the relationship between air pollution and higher prevalence of depressive disorders and suicides”&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F4E8UI6GG%22%2C%22pageLabel%22%3A%22718%22%2C%22position%22%3A%7B%22pageIndex%22%3A7%2C%22rects%22%3A%5B%5B128.11%2C500.683%2C286.299%2C511.914%5D%2C%5B56.693%2C484.593%2C286.315%2C495.824%5D%2C%5B56.693%2C468.503%2C148.411%2C479.734%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%5D%2C%22locator%22%3A%22718%22%7D%7D&quot;&gt;“Additionally, &lt;strong&gt;inconsistent results&lt;/strong&gt; of included studies should require further meta-analysis to settle final conclusions”&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F4E8UI6GG%22%2C%22pageLabel%22%3A%22716%22%2C%22position%22%3A%7B%22pageIndex%22%3A5%2C%22rects%22%3A%5B%5B56.693%2C178.883%2C286.311%2C190.114%5D%2C%5B56.693%2C162.793%2C286.299%2C174.024%5D%2C%5B56.693%2C146.703%2C286.298%2C157.934%5D%2C%5B56.693%2C130.613%2C273.844%2C141.844%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%5D%2C%22locator%22%3A%22716%22%7D%7D&quot;&gt;“It has been shown that the number of suicide attempts is increasing during the period of the highest concentrations of particulate matter in the atmosphere [49]. Still, the &lt;strong&gt;mechanism of this phenomenon is still tentative&lt;/strong&gt;.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;highlight&quot; data-annotation=&quot;%7B%22attachmentURI%22%3A%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2F4E8UI6GG%22%2C%22pageLabel%22%3A%22717%22%2C%22position%22%3A%7B%22pageIndex%22%3A6%2C%22rects%22%3A%5B%5B89.136%2C291.513%2C286.299%2C302.744%5D%2C%5B56.693%2C275.423%2C286.316%2C286.654%5D%2C%5B56.693%2C259.333%2C286.313%2C270.564%5D%2C%5B56.693%2C243.243%2C286.31%2C254.474%5D%2C%5B56.693%2C227.153%2C181.385%2C238.384%5D%5D%7D%2C%22citationItem%22%3A%7B%22uris%22%3A%5B%22http%3A%2F%2Fzotero.org%2Fusers%2Flocal%2FzSFT6PHz%2Fitems%2FKNEAEVBZ%22%5D%2C%22locator%22%3A%22717%22%7D%7D&quot;&gt;“In addition, the highest concentration of this substance (ozone) coincides with the peak of suicide death in summer. Alternatively, it may be caused by the influence of higher ambient temperatures leading to more violent behavior, which may result in suicide [36]”&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;Did not have two independent researchers&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_82">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/82/Gładka et al. - 2018 - Impact of air pollution on depression and suicide.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://ijomeh.eu/pdf-84931-33806?filename=Impact of air pollution.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2023-05-15 18:25:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
